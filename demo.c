@@ -16,7 +16,7 @@ int main(){
 	LCD_Set_Cursor(0,0);
 	LCD_Print((char *)line, 20);
 	LCD_Set_Cursor(1, 3);
-	LCD_Print("Connor Belman", 13);
+	LCD_Print("Hello, world!", 13);
 	LCD_Set_Cursor(2, 2);
 	LCD_Print("LCD Driver Demo", 15);
 	LCD_Set_Cursor(3, 0);
